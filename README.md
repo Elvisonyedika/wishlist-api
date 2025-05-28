@@ -34,25 +34,25 @@ A RESTful API for managing user wishlists, built with Laravel. This API allows u
 
 2. Install dependencies:
     ```bash
-    ```composer install```
+    composer install
 
 3. Set up the .env file:
     ```bash
-    ```cp .env.example .env```
+    cp .env.example .env
 
 Update the .env file with your database and other configurations.
 
 4. Generate the application key:
     ```bash
-    ```php artisan key:generate```
+    php artisan key:generate
 
 5. Run migrations and seed the database:
     ```bash
-    ```php artisan migrate --seed```
+    php artisan migrate --seed
 
 4. Serve the application:
     ```bash
-    ```php artisan serve```
+    php artisan serve
 
 API Documentation
 This project includes Swagger documentation for all API endpoints. You can access the Swagger UI to explore and test the API.
@@ -60,7 +60,7 @@ This project includes Swagger documentation for all API endpoints. You can acces
 Access Swagger Documentation
 After starting the application, visit the following URL in your browser:
     ```bash
-    ```http://localhost:8000/api/documentation```
+    http://localhost:8000/api/documentation
 
 Replace `localhost:8000` with your application's base URL if it's running on a different host or port.
 
@@ -70,7 +70,7 @@ This project includes feature tests for the AuthController, ProductController, a
 
 To run the tests, use the following command:
     ```bash
-    ```php artisan test```
+    php artisan test
 
 
 Project Structure
