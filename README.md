@@ -50,14 +50,14 @@ Update the .env file with your database and other configurations.
     ```bash
     php artisan migrate --seed
 
-4. Serve the application:
+6. Serve the application:
     ```bash
     php artisan serve
 
 Running Tests
 This project includes feature tests for the AuthController, ProductController, and WishlistController.
 
-5. To run the tests, use the following command:
+7. To run the tests, use the following command:
     ```bash
     php artisan test
 
@@ -65,7 +65,8 @@ API Documentation
 This project includes Swagger documentation for all API endpoints. You can access the Swagger UI to explore and test the API.
 
 Access Swagger Documentation
-6. After starting the application, visit the following URL in your browser:
+
+8. After starting the application, visit the following URL in your browser:
     ```bash
     http://localhost:8000/api/documentation
 
